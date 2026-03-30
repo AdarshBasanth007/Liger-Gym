@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Liger Gym — Best Gym in Pattom, Thiruvananthapuram</title>
+<meta name="description" content="Liger Gym in Pattom, Thiruvananthapuram — 5-star rated gym with expert trainers, clean facilities, and affordable pricing. Personal training, strength workouts & more."/>
+<meta name="keywords" content="gym in pattom, best gym thiruvananthapuram, affordable gym pattom, personal training thiruvananthapuram, gym near SUT hospital, liger gym, fitness center pattom, gym near me thiruvananthapuram"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://ligergym.in/"/>
+<!-- Open Graph (WhatsApp / Facebook previews) -->
+<meta property="og:title" content="Liger Gym — Best Gym in Pattom, Thiruvananthapuram"/>
+<meta property="og:description" content="5-star rated gym in Pattom with expert trainers, clean facilities, and affordable memberships. Join today!"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://ligergym.in/"/>
+<meta property="og:locale" content="en_IN"/>
+<!-- Local Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthClub",
+  "name": "Liger Gym",
+  "description": "Clean, affordable, and beginner-friendly gym in Pattom, Thiruvananthapuram with expert personal trainers.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Second Floor, KSHB Building, near SUT Hospital Road",
+    "addressLocality": "Pattom",
+    "addressRegion": "Kerala",
+    "postalCode": "695004",
+    "addressCountry": "IN"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "39"
+  },
+  "openingHours": ["Mo-Sa 05:00-22:00", "Su 06:00-20:00"],
+  "url": "https://ligergym.in"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --black: #080808;
+    --red: #E0150D;
+    --red-dark: #9B0E09;
+    --red-glow: rgba(224,21,13,0.18);
+    --white: #F5F5F0;
+    --grey: #1A1A1A;
+    --grey2: #2E2E2E;
+    --muted: #888;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5vw;
+    height: 64px;
+    background: rgba(8,8,8,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.12em;
+    color: var(--white);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--red); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--white); }
+  .nav-cta {
+    background: var(--red);
+    color: var(--white) !important;
+    padding: 0.45rem 1.2rem;
+    border-radius: 3px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+  .nav-cta:hover { background: var(--red-dark) !important; color: var(--white) !important; }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+  .hamburger span { width: 26px; height: 2px; background: var(--white); transition: all 0.3s; }
+  @media(max-width:768px){
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    display: flex; align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0 5vw;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(135deg, rgba(8,8,8,0.97) 35%, rgba(140,10,8,0.35) 100%),
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 80px,
+        rgba(255,255,255,0.015) 80px,
+        rgba(255,255,255,0.015) 81px
+      );
+  }
+  .hero-accent {
+    position: absolute; right: -5vw; top: 50%;
+    transform: translateY(-50%);
+    width: min(55vw, 700px);
+    height: min(55vw, 700px);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(224,21,13,0.13) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-content { position: relative; z-index: 2; max-width: 780px; }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: rgba(224,21,13,0.12);
+    border: 1px solid rgba(224,21,13,0.3);
+    border-radius: 2px;
+    padding: 0.3rem 0.9rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.6s ease both;
+  }
+  .hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(3.8rem, 9vw, 8rem);
+    line-height: 0.92;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.7s 0.1s ease both;
+  }
+  .hero-title .accent { color: var(--red); }
+  .hero-sub {
+    font-size: 1.15rem;
+    color: rgba(245,245,240,0.6);
+    max-width: 520px;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    animation: fadeUp 0.7s 0.2s ease both;
+  }
+  .hero-btns {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
+  .btn-primary {
+    background: var(--red);
+    color: var(--white);
+    padding: 0.8rem 2.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none; cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-primary:hover { background: var(--red-dark); transform: translateY(-2px); }
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    padding: 0.8rem 2.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.25);
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  }
+  .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.06); transform: translateY(-2px); }
+
+  .hero-badges {
+    display: flex; gap: 2rem; margin-top: 3.5rem; flex-wrap: wrap;
+    animation: fadeUp 0.7s 0.45s ease both;
+  }
+  .hbadge {
+    display: flex; align-items: center; gap: 0.6rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    color: rgba(245,245,240,0.55);
+  }
+  .hbadge .ico { font-size: 1.3rem; }
+
+  /* ── SECTION COMMON ── */
+  section { padding: 7rem 5vw; }
+  .section-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 0.8rem;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.6rem, 5vw, 4.5rem);
+    letter-spacing: 0.04em;
+    line-height: 1;
+    margin-bottom: 1.2rem;
+  }
+  .section-sub {
+    font-size: 1.05rem;
+    color: rgba(245,245,240,0.55);
+    max-width: 560px;
+    line-height: 1.75;
+  }
+
+  /* ── STATS BAR ── */
+  #stats {
+    padding: 0;
+    background: var(--red);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  }
+  .stat-item {
+    padding: 2.2rem 2rem;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.18);
+  }
+  .stat-item:last-child { border-right: none; }
+  .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+  .stat-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.82;
+    margin-top: 0.3rem;
+  }
+
+  /* ── ABOUT ── */
+  #about { background: var(--grey); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+  .about-visual {
+    position: relative;
+    aspect-ratio: 4/5;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .about-visual-bg {
+    width: 100%; height: 100%;
+    background: linear-gradient(145deg, #1c1c1c 0%, #2a0a09 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9rem;
+  }
+  .about-visual::before {
+    content: '';
+    position: absolute;
+    top: -2px; left: -2px; right: -2px; bottom: -2px;
+    border: 1px solid rgba(224,21,13,0.25);
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 2;
+  }
+  .about-tag {
+    position: absolute;
+    bottom: 2rem; left: -2rem;
+    background: var(--red);
+    padding: 1.1rem 1.5rem;
+    border-radius: 3px;
+    z-index: 3;
+  }
+  .about-tag .big { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; line-height: 1; }
+  .about-tag .sm { font-family: 'Barlow Condensed', sans-serif; font-size: 0.8rem; letter-spacing: 0.1em; opacity: 0.85; text-transform: uppercase; }
+  .about-points { display: flex; flex-direction: column; gap: 1.2rem; margin-top: 2rem; }
+  .about-point {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: 1.2rem 1.5rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 4px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .about-point:hover { background: rgba(224,21,13,0.07); border-color: rgba(224,21,13,0.2); }
+  .ap-ico { font-size: 1.5rem; flex-shrink: 0; margin-top: 0.1rem; }
+  .ap-title { font-family: 'Barlow Condensed', sans-serif; font-size: 1.05rem; font-weight: 700; letter-spacing: 0.04em; margin-bottom: 0.2rem; }
+  .ap-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
+  @media(max-width:900px){
+    .about-grid { grid-template-columns: 1fr; }
+    .about-visual { max-width: 400px; }
+    .about-tag { left: 1rem; }
+  }
+
+  /* ── SERVICES ── */
+  #services { background: var(--black); }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5px;
+    margin-top: 3.5rem;
+    border: 1.5px solid rgba(255,255,255,0.07);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .service-card {
+    padding: 2.5rem 2rem;
+    background: var(--grey);
+    border: none;
+    transition: background 0.25s;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+  }
+  .service-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--red);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+  .service-card:hover::after { transform: scaleX(1); }
+  .service-card:hover { background: #222; }
+  .sc-ico { font-size: 2.4rem; margin-bottom: 1.2rem; display: block; }
+  .sc-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+  }
+  .sc-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+
+  /* ── FACILITIES ── */
+  #facilities { background: var(--grey); }
+  .fac-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin-top: 3.5rem;
+  }
+  .fac-card {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 4/3;
+    background: linear-gradient(145deg, #1e1e1e 0%, #2a1010 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4rem;
+    transition: transform 0.3s;
+  }
+  .fac-card:first-child { grid-column: span 2; aspect-ratio: 2/1; font-size: 5rem; }
+  .fac-card:hover { transform: scale(1.02); }
+  .fac-label {
+    position: absolute;
+    bottom: 1rem; left: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(8,8,8,0.7);
+    backdrop-filter: blur(4px);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2px;
+    color: rgba(245,245,240,0.85);
+  }
+  @media(max-width:768px){
+    .fac-grid { grid-template-columns: 1fr 1fr; }
+    .fac-card:first-child { grid-column: span 2; }
+  }
+
+  /* ── TRAINERS ── */
+  #trainers { background: var(--black); }
+  .trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+  }
+  .trainer-card {
+    background: var(--grey);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .trainer-card:hover { transform: translateY(-5px); }
+  .trainer-photo {
+    height: 220px;
+    background: linear-gradient(160deg, #1f1f1f 0%, #2a0b0b 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 5rem;
+    position: relative;
+  }
+  .trainer-photo::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 60px;
+    background: linear-gradient(to top, var(--grey), transparent);
+  }
+  .trainer-info { padding: 1.3rem; }
+  .trainer-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem; font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+  .trainer-role { font-size: 0.85rem; color: var(--red); margin-bottom: 0.7rem; font-weight: 500; }
+  .trainer-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
+
+  /* ── REVIEWS ── */
+  #reviews { background: var(--grey); overflow: hidden; }
+  .reviews-scroll-wrap { overflow: hidden; position: relative; margin-top: 3.5rem; }
+  .reviews-scroll-wrap::before,
+  .reviews-scroll-wrap::after {
+    content: '';
+    position: absolute; top: 0; bottom: 0;
+    width: 10vw; z-index: 2; pointer-events: none;
+  }
+  .reviews-scroll-wrap::before { left: 0; background: linear-gradient(to right, var(--grey), transparent); }
+  .reviews-scroll-wrap::after { right: 0; background: linear-gradient(to left, var(--grey), transparent); }
+  .reviews-track {
+    display: flex; gap: 1.5rem;
+    animation: scrollTrack 28s linear infinite;
+    width: max-content;
+  }
+  @keyframes scrollTrack {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .review-card {
+    background: var(--black);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 6px;
+    padding: 1.8rem 1.6rem;
+    width: 300px;
+    flex-shrink: 0;
+  }
+  .review-stars { color: #FFB800; font-size: 1rem; letter-spacing: 0.1em; margin-bottom: 1rem; }
+  .review-text { font-size: 0.95rem; color: rgba(245,245,240,0.75); line-height: 1.7; margin-bottom: 1.2rem; font-style: italic; }
+  .review-author { font-family: 'Barlow Condensed', sans-serif; font-size: 0.9rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+
+  /* ── PRICING ── */
+  #pricing { background: var(--black); }
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+  }
+  .price-card {
+    background: var(--grey);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .price-card.featured {
+    border-color: var(--red);
+    background: #1e0a09;
+  }
+  .price-card:hover { transform: translateY(-4px); }
+  .featured-badge {
+    position: absolute;
+    top: -1px; right: 1.5rem;
+    background: var(--red);
+    padding: 0.3rem 0.9rem;
+    border-radius: 0 0 4px 4px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .price-plan { font-family: 'Barlow Condensed', sans-serif; font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+  .price-amount { font-family: 'Bebas Neue', sans-serif; font-size: 3.5rem; line-height: 1; color: var(--white); }
+  .price-amount span { font-size: 1.3rem; vertical-align: top; margin-top: 0.6rem; display: inline-block; color: var(--muted); }
+  .price-period { font-size: 0.88rem; color: var(--muted); margin-top: 0.3rem; margin-bottom: 1.8rem; }
+  .price-features { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; }
+  .price-features li { font-size: 0.92rem; color: rgba(245,245,240,0.7); display: flex; gap: 0.6rem; align-items: flex-start; }
+  .price-features li::before { content: '✓'; color: var(--red); font-weight: 700; flex-shrink: 0; }
+
+  /* ── LOCATION ── */
+  #location { background: var(--grey); }
+  .location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 3.5rem; }
+  .location-map {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    aspect-ratio: 16/11;
+  }
+  .location-map iframe { width: 100%; height: 100%; border: none; display: block; }
+  .location-details { display: flex; flex-direction: column; gap: 2rem; }
+  .loc-item { display: flex; gap: 1.2rem; align-items: flex-start; }
+  .loc-ico {
+    width: 48px; height: 48px;
+    border-radius: 4px;
+    background: rgba(224,21,13,0.12);
+    border: 1px solid rgba(224,21,13,0.25);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+  }
+  .loc-title { font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.3rem; }
+  .loc-text { font-size: 0.93rem; color: var(--muted); line-height: 1.65; }
+  @media(max-width:900px){ .location-grid { grid-template-columns: 1fr; } }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--black); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 3.5rem; }
+  .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+  .form-group label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 0.45rem; }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    background: var(--grey);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
+    transition: border-color 0.2s;
+    outline: none;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--red); }
+  .form-group select option { background: var(--grey); }
+  .form-group textarea { height: 110px; resize: vertical; }
+  .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
+  .ci-item { display: flex; gap: 1rem; align-items: flex-start; }
+  .ci-ico {
+    width: 42px; height: 42px;
+    border-radius: 4px;
+    background: rgba(224,21,13,0.1);
+    border: 1px solid rgba(224,21,13,0.22);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+  .ci-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.2rem; }
+  .ci-val { font-size: 0.95rem; color: var(--white); }
+  .whatsapp-btn {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    background: #25D366;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background 0.2s;
+    width: fit-content;
+  }
+  .whatsapp-btn:hover { background: #1da855; }
+  @media(max-width:900px){ .contact-grid { grid-template-columns: 1fr; } }
+
+  /* ── CTA BANNER ── */
+  #cta-banner {
+    padding: 6rem 5vw;
+    background: var(--red);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  #cta-banner::before {
+    content: 'LIGER';
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18rem;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.07);
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  #cta-banner .section-title { font-size: clamp(3rem, 7vw, 6.5rem); }
+  #cta-banner .section-sub { color: rgba(255,255,255,0.7); max-width: 500px; margin: 0.8rem auto 2.5rem; }
+  #cta-banner .btn-primary { background: var(--black); }
+  #cta-banner .btn-primary:hover { background: #222; }
+  #cta-banner .btn-outline { border-color: rgba(255,255,255,0.4); }
+  #cta-banner .btn-outline:hover { background: rgba(255,255,255,0.12); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--grey);
+    padding: 3rem 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.12em; }
+  .footer-logo span { color: var(--red); }
+  .footer-copy { font-size: 0.85rem; color: var(--muted); }
+  .footer-links { display: flex; gap: 1.5rem; }
+  .footer-links a { font-size: 0.85rem; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--white); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── SCROLL REVEAL ── */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.65s ease, transform 0.65s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  /* ── BMI CALCULATOR ── */
+  #bmi { background: var(--grey); }
+  .bmi-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 3.5rem;
+  }
+  .bmi-inputs { display: flex; flex-direction: column; gap: 1.5rem; }
+  .bmi-unit-toggle {
+    display: flex;
+    background: var(--black);
+    border-radius: 4px;
+    padding: 4px;
+    gap: 4px;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .bmi-unit-btn {
+    padding: 0.4rem 1.4rem;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: var(--muted);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.88rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .bmi-unit-btn.active { background: var(--red); color: var(--white); }
+  .bmi-slider-group label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+  }
+  .bmi-slider-group label span {
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 600;
+  }
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: var(--grey2);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: var(--red);
+    cursor: pointer;
+    border: 3px solid var(--black);
+    box-shadow: 0 0 0 2px var(--red);
+    transition: transform 0.15s;
+  }
+  input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.2); }
+  .bmi-result {
+    background: var(--black);
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.07);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    position: sticky;
+    top: 80px;
+  }
+  .bmi-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    line-height: 1;
+    transition: color 0.4s;
+  }
+  .bmi-category {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+    transition: color 0.4s;
+  }
+  .bmi-bar-wrap {
+    position: relative;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3B82F6 0%, #22C55E 30%, #EAB308 55%, #F97316 75%, #EF4444 100%);
+    margin: 1.5rem 0;
+    overflow: visible;
+  }
+  .bmi-pointer {
+    position: absolute;
+    top: -5px;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 3px solid var(--black);
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.4);
+    transform: translateX(-50%);
+    transition: left 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .bmi-scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 0.5rem;
+  }
+  .bmi-advice {
+    margin-top: 1.8rem;
+    padding: 1.2rem;
+    background: rgba(255,255,255,0.03);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: rgba(245,245,240,0.65);
+    line-height: 1.65;
+    text-align: left;
+    border-left: 3px solid var(--red);
+    transition: border-color 0.4s;
+  }
+  @media(max-width:900px){ .bmi-wrap { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">LIGER<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#bmi">BMI</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact" class="nav-cta">Join Now</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu(this)">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-accent"></div>
+  <div class="hero-content">
+    <div class="hero-badge">⭐ 5.0 Rating — 39 Reviews — Pattom, TVM</div>
+    <h1 class="hero-title">TRANSFORM<br>YOUR <span class="accent">BODY</span><br>AT LIGER</h1>
+    <p class="hero-sub">Clean, fully equipped, and beginner-friendly gym in the heart of Pattom. Real trainers. Real results.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Join Now</a>
+      <a href="#location" class="btn-outline">Visit Us</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hbadge"><span class="ico">🧼</span> Hygienic Facility</div>
+      <div class="hbadge"><span class="ico">🧑‍🏫</span> Expert Trainers</div>
+      <div class="hbadge"><span class="ico">💰</span> Affordable Pricing</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div id="stats">
+  <div class="stat-item"><div class="stat-num">5.0★</div><div class="stat-label">Google Rating</div></div>
+  <div class="stat-item"><div class="stat-num">39+</div><div class="stat-label">Happy Members</div></div>
+  <div class="stat-item"><div class="stat-num">100%</div><div class="stat-label">Positive Reviews</div></div>
+  <div class="stat-item"><div class="stat-num">5+</div><div class="stat-label">Training Programs</div></div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <p class="section-label">Who We Are</p>
+    <h2 class="section-title">MORE THAN JUST<br>A GYM</h2>
+    <p class="section-sub">Liger Gym is a community built on motivation, clean spaces, and coaches who genuinely care about your progress — no matter where you're starting from.</p>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-visual">
+      <div class="about-visual-bg">🏋️</div>
+      <div class="about-tag">
+        <div class="big">Pattom</div>
+        <div class="sm">Thiruvananthapuram</div>
+      </div>
+    </div>
+    <div>
+      <div class="about-points">
+        <div class="about-point">
+          <span class="ap-ico">🤝</span>
+          <div>
+            <div class="ap-title">Community-First Approach</div>
+            <div class="ap-desc">We believe fitness is better when it's shared. Our gym fosters a supportive, zero-judgment environment for everyone.</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <span class="ap-ico">🧼</span>
+          <div>
+            <div class="ap-title">Spotlessly Clean</div>
+            <div class="ap-desc">Our facility is cleaned and maintained daily. You'll always walk into a fresh, well-organised space ready for your workout.</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <span class="ap-ico">🎯</span>
+          <div>
+            <div class="ap-title">Beginner Friendly</div>
+            <div class="ap-desc">Never stepped into a gym before? Perfect. Our trainers specialise in guiding first-timers with patience and clarity.</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <span class="ap-ico">😌</span>
+          <div>
+            <div class="ap-title">Stress Relief Zone</div>
+            <div class="ap-desc">Members consistently say Liger Gym is their go-to place to decompress. Good vibes, every single day.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="reveal">
+    <p class="section-label">What We Offer</p>
+    <h2 class="section-title">TRAINING<br>PROGRAMS</h2>
+    <p class="section-sub">From beginner cardio to heavy strength work — we have a program that fits exactly where you are right now.</p>
+  </div>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <span class="sc-ico">💪</span>
+      <div class="sc-title">Strength Training</div>
+      <div class="sc-desc">Build real, functional muscle using free weights and machines. Progressive overload plans tailored to your level.</div>
+    </div>
+    <div class="service-card">
+      <span class="sc-ico">🧘</span>
+      <div class="sc-title">Core Workouts</div>
+      <div class="sc-desc">Strengthen your foundation with targeted core routines that improve posture, balance, and athletic performance.</div>
+    </div>
+    <div class="service-card">
+      <span class="sc-ico">🧑‍🏫</span>
+      <div class="sc-title">Personal Training</div>
+      <div class="sc-desc">One-on-one coaching at affordable rates. Your trainer builds a custom plan and keeps you accountable every step.</div>
+    </div>
+    <div class="service-card">
+      <span class="sc-ico">🏃</span>
+      <div class="sc-title">General Fitness</div>
+      <div class="sc-desc">All-round conditioning programs that improve stamina, flexibility, and overall health — perfect for beginners.</div>
+    </div>
+    <div class="service-card">
+      <span class="sc-ico">🏋️</span>
+      <div class="sc-title">Machine Training</div>
+      <div class="sc-desc">Guided machine-based workouts for safe, effective muscle isolation. Great for injury recovery and beginners.</div>
+    </div>
+    <div class="service-card">
+      <span class="sc-ico">🔥</span>
+      <div class="sc-title">Fat Loss Program</div>
+      <div class="sc-desc">Combination of cardio, HIIT, and strength work designed to help you burn fat and retain lean muscle mass.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FACILITIES -->
+<section id="facilities">
+  <div class="reveal">
+    <p class="section-label">Our Space</p>
+    <h2 class="section-title">WORLD-CLASS<br>FACILITIES</h2>
+    <p class="section-sub">Spacious, well-lit, and packed with quality equipment. Step in and feel the difference.</p>
+  </div>
+  <div class="fac-grid reveal">
+    <div class="fac-card">🏋️<div class="fac-label">Main Training Floor</div></div>
+    <div class="fac-card">⚙️<div class="fac-label">Machine Section</div></div>
+    <div class="fac-card">🪬<div class="fac-label">Free Weights Area</div></div>
+    <div class="fac-card">🏃<div class="fac-label">Cardio Zone</div></div>
+    <div class="fac-card">🪞<div class="fac-label">Full-Length Mirrors</div></div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers">
+  <div class="reveal">
+    <p class="section-label">The Team</p>
+    <h2 class="section-title">YOUR COACHES<br>AT LIGER</h2>
+    <p class="section-sub">Friendly, knowledgeable, and genuinely invested in your success. Meet the team that will get you results.</p>
+  </div>
+  <div class="trainers-grid reveal">
+    <div class="trainer-card">
+      <div class="trainer-photo">💪</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Head Trainer</div>
+        <div class="trainer-role">Strength & Conditioning</div>
+        <div class="trainer-desc">Certified strength coach with years of experience helping members build muscle and burn fat safely.</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-photo">🏃</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Fitness Coach</div>
+        <div class="trainer-role">Fat Loss & General Fitness</div>
+        <div class="trainer-desc">Specialises in high-energy cardio and body recomposition plans. Always motivating, never intimidating.</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-photo">🧘</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Core Specialist</div>
+        <div class="trainer-role">Core & Flexibility</div>
+        <div class="trainer-desc">Expert in functional core training and posture correction. Perfect for beginners and desk workers.</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-photo">🏋️</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Personal Trainer</div>
+        <div class="trainer-role">1-on-1 Coaching</div>
+        <div class="trainer-desc">Works one-on-one with members to build custom workout and nutrition plans for rapid, sustainable progress.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="reveal">
+    <p class="section-label">Member Stories</p>
+    <h2 class="section-title">WHAT OUR<br>MEMBERS SAY</h2>
+  </div>
+  <div class="reviews-scroll-wrap">
+    <div class="reviews-track" id="reviewsTrack">
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Very clean atmosphere and the trainers are extremely supportive. Best gym I've been to in TVM."</div><div class="review-author">— Arjun M.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Great gym for strength and core workouts. The equipment is well maintained and the space is spacious."</div><div class="review-author">— Meera S.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Affordable pricing and the personal training sessions are worth every rupee. Highly recommended!"</div><div class="review-author">— Rahul K.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"The vibe here is incredible — it genuinely helps me destress after long office hours. Love this place."</div><div class="review-author">— Priya N.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"As a beginner I was nervous, but the trainers here made me feel so comfortable from day one. 10/10."</div><div class="review-author">— Anil R.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Clean, hygienic, and the coaches actually track your progress. Not just another random gym."</div><div class="review-author">— Divya T.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Liger Gym changed how I feel about working out. Friendly staff and a genuinely motivating atmosphere."</div><div class="review-author">— Vishnu P.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"The best value-for-money gym in Pattom. Quality machines, great trainers, and a super clean space."</div><div class="review-author">— Kavitha L.</div></div>
+      <!-- Duplicate for seamless loop -->
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Very clean atmosphere and the trainers are extremely supportive. Best gym I've been to in TVM."</div><div class="review-author">— Arjun M.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Great gym for strength and core workouts. The equipment is well maintained and the space is spacious."</div><div class="review-author">— Meera S.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Affordable pricing and the personal training sessions are worth every rupee. Highly recommended!"</div><div class="review-author">— Rahul K.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"The vibe here is incredible — it genuinely helps me destress after long office hours. Love this place."</div><div class="review-author">— Priya N.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"As a beginner I was nervous, but the trainers here made me feel so comfortable from day one. 10/10."</div><div class="review-author">— Anil R.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Clean, hygienic, and the coaches actually track your progress. Not just another random gym."</div><div class="review-author">— Divya T.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Liger Gym changed how I feel about working out. Friendly staff and a genuinely motivating atmosphere."</div><div class="review-author">— Vishnu P.</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"The best value-for-money gym in Pattom. Quality machines, great trainers, and a super clean space."</div><div class="review-author">— Kavitha L.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="reveal">
+    <p class="section-label">Membership</p>
+    <h2 class="section-title">SIMPLE, HONEST<br>PRICING</h2>
+    <p class="section-sub">No hidden charges. No long-term lock-ins. Just great training at prices that make sense.</p>
+  </div>
+  <div class="pricing-grid reveal">
+    <div class="price-card">
+      <div class="price-plan">Monthly Plan</div>
+      <div class="price-amount"><span>₹</span>Contact Us</div>
+      <div class="price-period">Affordable monthly membership</div>
+      <ul class="price-features">
+        <li>Full gym access</li>
+        <li>All equipment included</li>
+        <li>Group workout sessions</li>
+        <li>Trainer guidance</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="display:block; text-align:center;">Enquire Now</a>
+    </div>
+    <div class="price-card featured">
+      <div class="featured-badge">Most Popular</div>
+      <div class="price-plan">Personal Training</div>
+      <div class="price-amount"><span>₹</span>Best Price</div>
+      <div class="price-period">1-on-1 coaching sessions</div>
+      <ul class="price-features">
+        <li>Dedicated personal trainer</li>
+        <li>Custom workout plan</li>
+        <li>Nutrition guidance</li>
+        <li>Progress tracking</li>
+        <li>Flexible scheduling</li>
+      </ul>
+      <a href="#contact" class="btn-primary" style="display:block; text-align:center;">Get Started</a>
+    </div>
+    <div class="price-card">
+      <div class="price-plan">Quarterly Plan</div>
+      <div class="price-amount"><span>₹</span>Save More</div>
+      <div class="price-period">3-month commitment, better value</div>
+      <ul class="price-features">
+        <li>Full gym access</li>
+        <li>Priority trainer slots</li>
+        <li>Free fitness assessment</li>
+        <li>Members-only offers</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="display:block; text-align:center;">Enquire Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location">
+  <div class="reveal">
+    <p class="section-label">Find Us</p>
+    <h2 class="section-title">WE'RE RIGHT<br>IN PATTOM</h2>
+  </div>
+  <div class="location-grid reveal">
+    <div class="location-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.9!2d76.95!3d8.52!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMzEnMTIuMCJOIDc2wrA1NycwMC4wIkU!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="location-details">
+      <div class="loc-item">
+        <div class="loc-ico">📍</div>
+        <div>
+          <div class="loc-title">Address</div>
+          <div class="loc-text">Second Floor, KSHB Building,<br>near SUT Hospital Road, Pattom,<br>Thiruvananthapuram, Kerala</div>
+        </div>
+      </div>
+      <div class="loc-item">
+        <div class="loc-ico">🚦</div>
+        <div>
+          <div class="loc-title">Landmark</div>
+          <div class="loc-text">Opposite Traffic Police Station, Pattom</div>
+        </div>
+      </div>
+      <div class="loc-item">
+        <div class="loc-ico">🕐</div>
+        <div>
+          <div class="loc-title">Timing</div>
+          <div class="loc-text">Monday – Saturday: 5:00 AM – 10:00 PM<br>Sunday: 6:00 AM – 8:00 PM</div>
+        </div>
+      </div>
+      <a href="https://maps.google.com/?q=KSHB+Building+Pattom+Thiruvananthapuram" target="_blank" class="btn-primary" style="width:fit-content;">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <p class="section-label">Get In Touch</p>
+    <h2 class="section-title">START YOUR<br>JOURNEY TODAY</h2>
+    <p class="section-sub">Have questions about membership or want to schedule a visit? Drop us a message and we'll get back to you fast.</p>
+  </div>
+  <div class="contact-grid reveal">
+    <div class="contact-form">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="e.g. Arjun Kumar"/>
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+91 98XXX XXXXX"/>
+      </div>
+      <div class="form-group">
+        <label>Your Goal</label>
+        <select>
+          <option value="">Select your primary goal</option>
+          <option>Weight Loss</option>
+          <option>Muscle Gain</option>
+          <option>General Fitness</option>
+          <option>Strength Training</option>
+          <option>Personal Training</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message (Optional)</label>
+        <textarea placeholder="Any questions or special requirements..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%; font-size:1rem; padding:1rem;" onclick="handleSubmit()">Send Message</button>
+    </div>
+    <div class="contact-info">
+      <div class="ci-item">
+        <div class="ci-ico">📞</div>
+        <div>
+          <div class="ci-label">Call Us</div>
+          <div class="ci-val">+91 XXXXX XXXXX</div>
+        </div>
+      </div>
+      <div class="ci-item">
+        <div class="ci-ico">📍</div>
+        <div>
+          <div class="ci-label">Visit Us</div>
+          <div class="ci-val">KSHB Building, Pattom, TVM</div>
+        </div>
+      </div>
+      <div class="ci-item">
+        <div class="ci-ico">🕐</div>
+        <div>
+          <div class="ci-label">Open Hours</div>
+          <div class="ci-val">Mon–Sat: 5 AM – 10 PM</div>
+        </div>
+      </div>
+      <a href="https://wa.me/919XXXXXXXXX" class="whatsapp-btn">
+        <span>💬</span> Chat on WhatsApp
+      </a>
+      <div style="margin-top:2rem; padding:1.5rem; background: var(--grey); border-radius:6px; border-left: 3px solid var(--red);">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Note</div>
+        <div style="font-size:0.92rem; color:rgba(245,245,240,0.65); line-height:1.65;">Contact us for the latest membership offers, trial sessions, and seasonal discounts. We regularly run special promos for students and working professionals.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BMI CALCULATOR -->
+<section id="bmi">
+  <div class="reveal">
+    <p class="section-label">Free Tool</p>
+    <h2 class="section-title">CHECK YOUR<br>BMI</h2>
+    <p class="section-sub">Find out where you stand and what your first fitness goal should be. Our trainers can help you get to your ideal range.</p>
+  </div>
+  <div class="bmi-wrap reveal">
+    <div class="bmi-inputs">
+      <div>
+        <div class="bmi-unit-toggle">
+          <button class="bmi-unit-btn active" onclick="setUnit('metric',this)">Metric (kg/cm)</button>
+          <button class="bmi-unit-btn" onclick="setUnit('imperial',this)">Imperial (lb/ft)</button>
+        </div>
+      </div>
+
+      <div class="bmi-slider-group">
+        <label>Height <span id="heightVal">170 cm</span></label>
+        <input type="range" id="heightSlider" min="140" max="210" value="170" oninput="updateBMI()"/>
+      </div>
+
+      <div class="bmi-slider-group">
+        <label>Weight <span id="weightVal">70 kg</span></label>
+        <input type="range" id="weightSlider" min="40" max="150" value="70" oninput="updateBMI()"/>
+      </div>
+
+      <div class="bmi-slider-group">
+        <label>Age <span id="ageVal">25 yrs</span></label>
+        <input type="range" id="ageSlider" min="16" max="70" value="25" oninput="updateBMI()"/>
+      </div>
+
+      <div style="padding:1.2rem 1.5rem; background:rgba(224,21,13,0.07); border:1px solid rgba(224,21,13,0.18); border-radius:4px;">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--red); margin-bottom:0.4rem;">Liger Gym Tip</div>
+        <div style="font-size:0.9rem; color:rgba(245,245,240,0.65); line-height:1.65;">Whatever your BMI, our trainers will build a plan that's right for <em>you</em> — not a generic template. Come in for a free assessment!</div>
+      </div>
+    </div>
+
+    <div class="bmi-result">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Your BMI</div>
+      <div class="bmi-number" id="bmiNumber">22.3</div>
+      <div class="bmi-category" id="bmiCategory">Normal Weight</div>
+
+      <div class="bmi-bar-wrap">
+        <div class="bmi-pointer" id="bmiPointer" style="left:35%"></div>
+      </div>
+      <div class="bmi-scale-labels">
+        <span>Under</span><span>Normal</span><span>Over</span><span>Obese</span>
+      </div>
+
+      <div class="bmi-advice" id="bmiAdvice">
+        You're in a healthy range! Focus on maintaining your weight with consistent strength training and balanced nutrition.
+      </div>
+
+      <a href="#contact" class="btn-primary" style="display:block; text-align:center; margin-top:1.5rem;">Get a Free Assessment</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section id="cta-banner">
+  <div class="reveal">
+    <p class="section-label" style="color:rgba(255,255,255,0.7);">Ready?</p>
+    <h2 class="section-title">START YOUR<br>FITNESS JOURNEY</h2>
+    <p class="section-sub">Every transformation starts with a single step. Walk in, say hello, and let's build something great together.</p>
+    <div class="hero-btns" style="justify-content:center;">
+      <a href="#contact" class="btn-primary">Join Now</a>
+      <a href="#location" class="btn-outline">Visit the Gym</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">LIGER<span>.</span></div>
+  <div class="footer-copy">© 2025 Liger Gym, Pattom, Thiruvananthapuram. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // BMI Calculator
+  let unit = 'metric';
+  function setUnit(u, btn) {
+    unit = u;
+    document.querySelectorAll('.bmi-unit-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const h = document.getElementById('heightSlider');
+    const w = document.getElementById('weightSlider');
+    if (u === 'metric') {
+      h.min=140; h.max=210; h.value=170;
+      w.min=40;  w.max=150; w.value=70;
+    } else {
+      h.min=55; h.max=83; h.value=67;   // inches
+      w.min=88; w.max=330; w.value=154; // lbs
+    }
+    updateBMI();
+  }
+  function updateBMI() {
+    const h = parseFloat(document.getElementById('heightSlider').value);
+    const w = parseFloat(document.getElementById('weightSlider').value);
+    const age = parseInt(document.getElementById('ageSlider').value);
+    document.getElementById('ageVal').textContent = age + ' yrs';
+    let bmi, hLabel, wLabel;
+    if (unit === 'metric') {
+      hLabel = h + ' cm'; wLabel = w + ' kg';
+      bmi = w / ((h/100) * (h/100));
+    } else {
+      hLabel = Math.floor(h/12) + "'" + (h%12) + '"'; wLabel = w + ' lb';
+      bmi = (w / (h * h)) * 703;
+    }
+    document.getElementById('heightVal').textContent = hLabel;
+    document.getElementById('weightVal').textContent = wLabel;
+    bmi = Math.round(bmi * 10) / 10;
+    document.getElementById('bmiNumber').textContent = bmi;
+
+    let cat, color, advice, pct;
+    if (bmi < 18.5) {
+      cat='Underweight'; color='#3B82F6'; pct=10;
+      advice='You\'re below the healthy range. Our trainers can help you build muscle mass and gain weight in a healthy, structured way.';
+    } else if (bmi < 25) {
+      cat='Normal Weight'; color='#22C55E'; pct=35;
+      advice='You\'re in a healthy range! Focus on maintaining your weight with consistent strength training and balanced nutrition.';
+    } else if (bmi < 30) {
+      cat='Overweight'; color='#EAB308'; pct=62;
+      advice='You\'re slightly above the healthy range. A mix of cardio and strength training at Liger Gym can help you reach your goal.';
+    } else if (bmi < 35) {
+      cat='Obese Class I'; color='#F97316'; pct=80;
+      advice='Our personal trainers specialise in safe, effective fat-loss programs. A tailored plan makes all the difference — come talk to us!';
+    } else {
+      cat='Obese Class II+'; color='#EF4444'; pct=95;
+      advice='It\'s never too late to start. Our trainers work with members at all levels and will build a safe, beginner-friendly plan just for you.';
+    }
+    document.getElementById('bmiNumber').style.color = color;
+    document.getElementById('bmiCategory').textContent = cat;
+    document.getElementById('bmiCategory').style.color = color;
+    document.getElementById('bmiPointer').style.left = pct + '%';
+    document.getElementById('bmiAdvice').textContent = advice;
+    document.getElementById('bmiAdvice').style.borderLeftColor = color;
+  }
+  updateBMI();
+
+  // Mobile nav toggle
+  function toggleMenu(el) {
+    const links = document.querySelector('.nav-links');
+    links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '64px';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.background = 'rgba(8,8,8,0.97)';
+    links.style.padding = '1.5rem 5vw 2rem';
+    links.style.borderBottom = '1px solid rgba(255,255,255,0.06)';
+    links.style.gap = '1.2rem';
+  }
+
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Form submit mock
+  function handleSubmit() {
+    alert('Thanks! We\'ll get back to you shortly. 💪');
+  }
+</script>
+</body>
+</html>
